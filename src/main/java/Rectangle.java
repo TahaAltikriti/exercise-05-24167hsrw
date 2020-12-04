@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle extends GeometricObject{
     
     double height=1;
     double width=1;
@@ -16,4 +16,12 @@ public class Rectangle {
        
    double getPerimeter(){
     return (2*(width+height));
-   } 
+                        } 
+public void changeColor(String color){
+    this.color=color;
+
+}
+
+
+}
+
