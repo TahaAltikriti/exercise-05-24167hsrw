@@ -1,0 +1,2 @@
+
+enum Domain {STAFF, STUDENT}
