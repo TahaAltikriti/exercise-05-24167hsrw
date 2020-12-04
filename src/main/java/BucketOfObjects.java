@@ -12,6 +12,17 @@ public class BucketOfObjects{
     this.items += obj;
   
   }
+  public getTotalArea(){
+  
+  
+  }
+  public getTotalPerimeter(){
+  
+  
+  }
+  
+  
+  
   
   public toString(){
   
