@@ -1,4 +1,4 @@
-public enum Course { 
+ enum Course { 
     ME, MSE, EL, IE, BMS, SCB, MME, MBB;
 
     private String id, name;
