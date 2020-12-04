@@ -1,5 +1,4 @@
- enum Course { 
-    ME, MSE, EL, IE, BMS, SCB, MME, MBB;
+ public class Course { 
 
     private String id, name;
     private Professor lecturer;
