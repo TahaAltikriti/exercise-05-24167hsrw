@@ -10,7 +10,7 @@ import java.util.Date;
              
         
         private static int idGen=10000;
-        private Course studycourse;
+        private StudyCourse studycourse;
         private Student()
         {
             
@@ -35,7 +35,7 @@ import java.util.Date;
         
 
         
-        public Course getStudyCourse()
+        public StudyCourse getStudyCourse()
         {
             return this.studycourse;
         }
@@ -59,7 +59,7 @@ import java.util.Date;
         
         
         
-        public void setStudyCourse(Course courseinput) // done 
+        public void setStudyCourse(StudyCourse courseinput) // done 
         {
             this.studycourse=courseinput;
              
@@ -68,7 +68,7 @@ import java.util.Date;
         public void setStudyCourse(String studyinput)
         {               
           
-            this.studycourse= Course.valueOf(studyinput);
+            this.studycourse= StudyCourse.valueOf(studyinput);
             
             
         }
