@@ -1,4 +1,4 @@
- public class Course { 
+ public class Course implements Classroom{ 
 
     private String id, name;
     private Professor lecturer;
