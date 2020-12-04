@@ -1,4 +1,5 @@
-public class Course {
+public enum Course { 
+    ME, MSE, EL, IE, BMS, SCB, MME, MBB;
 
     private String id, name;
     private Professor lecturer;
@@ -38,3 +39,4 @@ public class Course {
     
     
 }
+
