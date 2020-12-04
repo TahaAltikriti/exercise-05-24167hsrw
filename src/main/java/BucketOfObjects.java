@@ -7,24 +7,40 @@ public class BucketOfObjects{
   
   }
   
-  public addObject(GeometricObject obj){
+  public void addObject(GeometricObject obj){
   
     this.items += obj;
   
   }
-  public getTotalArea(){
-  
+  public double getTotalArea(){
+    double s=0;
+    
+    for(int i=0; i< this.items.length; i++){
+      s+= items[i].getArea();
+ 
+    
+    
+    }
+    return s;
   
   }
-  public getTotalPerimeter(){
+  public double getTotalPerimeter(){
   
-  
+      double p=0;
+    
+    for(int i=0; i< this.items.length; i++){
+      p+= items[i].getPerimeter();
+ 
+    
+    
+    }
+    return p;
   }
   
   
   
   
-  public toString(){
+  public String toString(){
   
     String str = ""
   
